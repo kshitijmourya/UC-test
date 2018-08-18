@@ -1,0 +1,22 @@
+{
+  "businesses": [
+    {
+      "name": "Restaurant1",
+      "rating":"4",
+      "phone": "+735335353",
+      "price": "$$"
+    },
+    {
+      "name": "Restaurant2",
+      "rating":"2",
+      "phone": "+700123353",
+      "price": "$"
+    },
+    {
+      "name": "Restaurant3",
+      "rating":"4",
+      "phone": "+336805353",
+      "price": "$$$"
+    }
+  ]
+}

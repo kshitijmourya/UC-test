@@ -1,0 +1,16 @@
+
+<div>
+
+      <form class="form-group" #searchForm = "ngForm"><br>
+       <!-- Origin City Start -->
+        <input type="text" placeholder="Search" list="nameList" #businessname= "ngModel" [(ngModel)]="name" name="originname" required class="form-control"><br>
+          <datalist id="nameList">
+            <option *ngFor="let f of businessDetails" value="{{f.name}}"></option>
+          </datalist>
+          <!-- Origin City End -->
+
+      <button class="btn btn-success"  (click)="checkDetails()">Submit</button>
+      </form>
+                          <hr>
+
+</div>

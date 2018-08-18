@@ -1,0 +1,12 @@
+
+<hr>
+<div class="cardContainer">
+<div *ngFor="let business of displayDetails |filterBusiness: BusinessesData.cityB">
+    <div class="card" >
+        <div class="card-body" >
+        <p>  <span> {{business.name}}</span></p>
+
+        </div>
+      </div>
+</div>
+</div>

@@ -1,0 +1,10 @@
+<header><h2>Business Search </h2></header>
+
+
+<div class="container">
+    <div class="row">
+      <app-search (childEvent)="message($event)" class="col-sm-4">  </app-search>
+      <app-display *ngIf="displayContainer" [parentData]="d" class="text-success col-sm-6"></app-display>
+
+    </div>
+</div>
